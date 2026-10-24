@@ -1,13 +1,13 @@
 cask "bee" do
-  version "1.0.0"
-  sha256 "72456021d415aaea319a495f4ede03a3b92cca1c95e1d9b90ce2eb52eb48444e"
+  version "1.1.0"
+  sha256 "cd29431c40319534f42e9ef84a2b87c149d6bc5953172cec79d65280cba7b7e4"
 
   url "https://github.com/szymonograbek/bee/releases/download/v#{version}/Bee.zip"
   name "Bee"
   desc "Menu bar app that keeps your Mac awake"
   homepage "https://github.com/szymonograbek/bee"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Bee.app"
 
