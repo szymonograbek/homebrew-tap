@@ -1,6 +1,6 @@
 cask "bee" do
-  version "1.3.0"
-  sha256 "d256a44bb16dcee31975a24eda093f56d773fdef0e3db952e16b55106c953c2e"
+  version "1.4.0"
+  sha256 "72796bd4d9eb7998fbf23cf8cf97a5c0c74b84960a46e0c4d049c0d6128c04ed"
 
   url "https://github.com/szymonograbek/bee/releases/download/v#{version}/Bee.zip"
   name "Bee"
